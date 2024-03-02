@@ -5,9 +5,30 @@
     padding: 0;
 }
 
-
-
-.container {
+.fundo {
     background-color: aqua;
     min-height: 100vh;
+}
+
+.links {
+    display: grid;
+    justify-content: flex-end;
+}
+
+.redes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+#youtube {
+    margin-top: 10px;
+    background-image: url(imagens/logo-youtube.jpg);
+    background-position: center;
+    background-size: cover;
 }
