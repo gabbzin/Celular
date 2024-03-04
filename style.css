@@ -32,8 +32,13 @@
 
 /* Personalização dos botões */
 
+#home {
+    background-image: url(imagens/logo-home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #youtube {
-    margin-top: 10px;
     background-image: url(imagens/logo-youtube.jpg);
     background-position: center;
     background-size: cover;
@@ -88,7 +93,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 265px;
+    width: 255px;
     height: 455px;
     margin-top: 9px;
     margin-left: 3px;
