@@ -7,8 +7,10 @@
 
 .fundo {
     background-color: aqua;
+    background-image: url(imagens/fundo-madeira.jpg);
     min-height: 100vh;
     max-width: 100vw;
+    padding: 10px;
 }
 
 .links {
@@ -76,8 +78,19 @@
     margin: auto;
 }
 
+.tela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 iframe {
-    margin: auto;
-    width: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 265px;
     height: 455px;
+    margin-top: 9px;
+    margin-left: 3px;
+    border: 1px solid black;
 }
