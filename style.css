@@ -8,9 +8,9 @@
 .fundo {
     background-color: aqua;
     background-image: url(imagens/fundo-madeira.jpg);
-    min-height: 100vh;
-    max-width: 100vw;
     padding: 10px;
+    position: relative;
+    height: 100vh;
 }
 
 .links {
@@ -21,13 +21,11 @@
 .redes {
     display: flex;
     justify-content: end;
-    min-width: 40px;
-    max-width: 80px;
-    min-height: 40px;
-    max-height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: yellow;
-    margin: 0px 10px 15px 0px;
+    margin: 10px;
 }
 
 /* Personalização dos botões */
@@ -71,31 +69,29 @@
 /* Tela do celular */
 
 .celular {
-    width: 300px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+    width: 311px;
+    height: 627px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
 }
 
-.tela {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+iframe {
+    position: relative;
+    top: 82px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
 }
 
-iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 255px;
-    height: 455px;
-    margin-top: 9px;
-    margin-left: 3px;
-    border: 1px solid black;
+section.links .redes:hover{
+    border: 2px solid rgba(0, 0, 0, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 5pz rgba(0, 0, 0, 0.651);
+    transition: transform .3s, border 1s;
 }
